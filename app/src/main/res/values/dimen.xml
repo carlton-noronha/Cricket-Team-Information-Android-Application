@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="listview_horizontal_length">12dp</dimen>
+    <dimen name="listview_vertical_length">16dp</dimen>
+
+</resources>

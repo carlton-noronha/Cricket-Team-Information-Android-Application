@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/india"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:paddingLeft="@dimen/listview_horizontal_length"
+        android:paddingTop="@dimen/listview_vertical_length"
+        android:paddingBottom="@dimen/listview_vertical_length"
+        android:text="@string/india"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/australia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:paddingLeft="@dimen/listview_horizontal_length"
+        android:paddingTop="@dimen/listview_vertical_length"
+        android:paddingBottom="@dimen/listview_vertical_length"
+        android:text="@string/australia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/southAfrica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF4081"
+        android:paddingLeft="@dimen/listview_horizontal_length"
+        android:paddingTop="@dimen/listview_vertical_length"
+        android:paddingBottom="@dimen/listview_vertical_length"
+        android:text="@string/south_africa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
